@@ -1,0 +1,36 @@
+.play_board{
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  width: 400px;
+  height: 400px;
+}
+
+.black{
+    background-color: rgb(79, 78, 78);
+}
+
+.white {
+    background-color: rgb(234, 224, 177);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+
+.white-piece {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.black-piece {
+  color: black;
+}
